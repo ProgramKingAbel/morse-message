@@ -16,6 +16,10 @@
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -32,9 +36,9 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-<summary>Ruby</summary>
+<summary>Server</summary>
   <ul>
-    <li>Ruby</li>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
   </ul>
 </details>
 
@@ -42,7 +46,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Decodes morse code**
+- **Decodes Morse Code**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -57,6 +61,10 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+- [Ruby Interpreter](https://www.ruby-lang.org/en/downloads/)
+- [Development Environment](https://code.visualstudio.com/download)
+- RubyGems: Verify by running `gem --version`
+
 ### Setup
 
 Clone this repository to your desired folder:
@@ -65,6 +73,33 @@ Clone this repository to your desired folder:
   cd my-folder
   git clone https://github.com/ProgramKingAbel/morse-message.git
 ```
+
+### Install
+
+Install this project with:
+
+```sh
+  cd my-project
+  gem install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+
+```sh
+  rails server
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
