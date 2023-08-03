@@ -18,6 +18,7 @@ end
 def split_into_words(morse_code)
   morse_code.split('   ')
 end
+
 def decode_words(morse_dict, words)
   words.map do |word|
     morse_chars = word.split
@@ -32,4 +33,5 @@ end
 def join_words(decoded_words)
   decoded_words.join(' ')
 end
+
 puts decode '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
