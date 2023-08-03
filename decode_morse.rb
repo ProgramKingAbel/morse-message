@@ -32,3 +32,4 @@ end
 def join_words(decoded_words)
   decoded_words.join(' ')
 end
+puts decode '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
